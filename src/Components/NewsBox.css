@@ -1,0 +1,506 @@
+/** Common - Start **/
+
+#slideshow {
+	margin: 80px auto;
+	position: relative;
+	width: 240px;
+	height: 240px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+
+.HoomisDef {
+	display: flex;
+	justify-content: left;
+}
+
+.HoomisInfo {
+	border: none;
+	border-bottom: 4px solid grey;
+	border-radius: 0px;
+}
+
+.InfoText {
+	font-size: 15px;
+}
+
+.HoomisInfo:hover,
+.HoomisInfo:active {
+	background: white;
+	border-bottom: 4px solid #008df0;
+}
+
+.btnVerificado,
+.btnInfo,
+.btnVirtual,
+.btnLoHacemos {
+	border-radius: 50px;
+	cursor: default;
+	padding: 50px;
+	font-size: 10px;
+}
+
+.BotonesFeos {
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+.ColImg {
+	display: flex;
+	justify-content: center;
+}
+
+.PntPortada1 {
+	background-color: #008df0;
+	color: white;
+	font-size: 20px;
+	align-content: center;
+	border-color: #008df0;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin-left: 40%;
+	margin-bottom: 20px;
+	cursor: default;
+}
+
+.PntPortada1:hover {
+	background-color: #008df0;
+	border-color: #008df0;
+	color: white;
+	cursor: default;
+}
+
+.TituloBtn {
+	font-weight: bold;
+	color: #484848;
+	text-align: center;
+	font-size: 30px;
+}
+
+.TituloBtn2 {
+	margin-top: -60px;
+}
+
+.TextoBtn {
+	font-size: 15px;
+	text-align: center;
+}
+
+.BloquePnt {
+	margin-bottom: 150px;
+}
+
+.btn {
+	padding: 9px 27px;
+	border-color: #c4c4c4;
+	background: white;
+	color: #484848;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:hover:focus {
+	background: white;
+	color: #484848;
+}
+
+.btnPrimary1,
+.btnPrimary2,
+.btnPrimary3 {
+	border-color: #008df0;
+	background-color: #008df0;
+	color: #fff;
+}
+
+.btnPrimary1 {
+	margin-left: 30%;
+}
+
+.btnPrimary2 {
+	margin-left: 25%;
+}
+
+.btnPrimary3 {
+	margin-left: 35%;
+}
+
+.btnlarge {
+	padding: 9px 27px;
+}
+
+.btnPrimary1:hover,
+.btnPrimary1:focus,
+.btnPrimary1:active,
+.btnPrimary1:active:hover,
+.btnPrimary1:active:focus,
+.btnPrimary2:hover,
+.btnPrimary2:focus,
+.btnPrimary2:active,
+.btnPrimary2:active:hover,
+.btnPrimary2:active:focus,
+.btnPrimary3:hover,
+.btnPrimary3:focus,
+.btnPrimary3:active,
+.btnPrimary3:active:hover,
+.btnPrimary3:active:focus {
+	border-color: #73e9ff;
+	background-color: #73e9ff;
+	color: #fff;
+}
+
+.btnPrimaryBorder {
+	border-color: #008df0;
+	color: #008df0;
+	background-color: #fff;
+}
+
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: #008df0;
+	color: #008df0;
+	background-color: #fff;
+}
+
+a,
+a:hover,
+a:active a:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.noPadding {
+	padding: 0px;
+}
+/** Common - End **/
+/** News box - Start */
+
+.Icons {
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.table {
+	width: 100%;
+	display: table;
+	margin-bottom: 48px;
+}
+
+.tableCell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.textColumn:nth-of-type(2) {
+	width: 45%;
+	padding-left: 80px;
+	padding-right: 0px;
+}
+
+.textColumn {
+	width: 45%;
+	padding-right: 80px;
+}
+
+.imageColumn {
+	width: 55%;
+}
+
+.imgShadow {
+	box-shadow: 1px 1px 1px 1px rgb(216, 216, 216);
+	width: 700px;
+	height: 350px;
+}
+
+.FotosPortada {
+	margin-bottom: 70px;
+}
+
+.title {
+	font-weight: 700;
+	color: #484848;
+	margin: 0px;
+	word-wrap: break-word;
+	font-size: 28px;
+	line-height: 36px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.caption {
+	font-weight: 200;
+	color: #484848;
+	margin-top: 12px;
+	margin-bottom: 24px;
+	word-wrap: break-word;
+	font-size: 19px;
+	line-height: 24px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.mobileView {
+	display: none;
+}
+
+.HoomersBlock2 {
+	background: #facc43;
+}
+
+.HomisVision {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.RowCities {
+	margin-bottom: 10%;
+}
+
+.InlineText {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 0%;
+	font-size: 25px;
+	font: Arial, Helvetica, sans-serif;
+}
+
+.InlineTextComunidad {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 80px;
+	font-size: 25px;
+	font: Arial, Helvetica, sans-serif;
+}
+.InlineText2 {
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.InfoRow,
+.InfoCol {
+	display: flex;
+	justify-content: center;
+}
+
+.BlockCities {
+	margin: 10% 0% 10% 0%;
+}
+
+.City1:hover,
+.City2:hover,
+.City3:hover {
+	margin-top: -10px;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.City1,
+.City2,
+.City3 {
+	width: 275px;
+	height: 400px;
+	background-size: 300px 400px;
+}
+
+.City1 {
+	background-image: url('../assets/barcelona-portada.jpg');
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+.City2 {
+	background-image: url('../assets/madrid-portada.jpg');
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+.City3 {
+	background-image: url('../assets/valencia-portada.jpg');
+	background-repeat: no-repeat;
+	transition: 0.5s;
+}
+
+.NextCity {
+	font-size: 25px;
+	color: white;
+}
+.CityName {
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	margin-top: 60%;
+}
+
+.ColReviews {
+	display: flex;
+	justify-content: center;
+}
+
+.BlockReview {
+	display: flex;
+	height: 200px;
+	justify-content: center;
+}
+
+.Review {
+	border: none;
+	width: 800px;
+	font-size: 20px;
+	cursor: default;
+}
+.ReviewText {
+	text-align: center;
+}
+
+.ReviewAuthor {
+	text-align: center;
+}
+
+.Review:hover {
+	background-color: white;
+}
+.BotonHoomerRow {
+	display: flex;
+	justify-content: center;
+}
+.HoomersBlock {
+	margin: 5% 0% 5% 0%;
+}
+
+.BtnHoomer {
+	border-color: #facc43;
+	background-color: #facc43;
+	color: white;
+	padding: 10px;
+	transition-duration: 0.4s;
+	text-align: center;
+}
+.HoomerSpace {
+	padding-top: 10px;
+}
+
+.BtnHoomer:hover {
+	border-color: #facc43;
+	background-color: #facc43;
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+}
+
+@media screen and (max-width: 767px) {
+	.tableCell {
+		display: block;
+		width: 100%;
+	}
+	.desktopView {
+		display: block;
+	}
+	.mobileView {
+		display: block;
+	}
+	.textColumn {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-bottom: 10%;
+	}
+
+	.textColumn:nth-of-type(2) {
+		margin-top: 10%;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-bottom: 10%;
+	}
+
+	.TituloBtn2 {
+		margin-top: 15px;
+	}
+
+	.title {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.caption {
+		color: #484848;
+		margin-top: 8px;
+		margin-bottom: 16px;
+		word-wrap: break-word;
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.imgShadow {
+		height: 200px;
+	}
+
+	.City1 {
+		width: 180px;
+		height: 260px;
+		background-size: 190px 270px;
+		margin-bottom: 20px;
+	}
+	.City2 {
+		width: 180px;
+		height: 260px;
+		background-size: 190px 270px;
+	}
+	.City3 {
+		width: 180px;
+		height: 260px;
+		background-size: 190px 270px;
+	}
+
+	.NextCity {
+		font-size: 20px;
+		color: white;
+	}
+	.CityName {
+		font-size: 30px;
+		color: white;
+		font-weight: bold;
+		margin-top: 60%;
+	}
+
+	.Reviews {
+		display: none;
+	}
+
+	.RowReviews {
+		display: none;
+	}
+	.review {
+		border: none;
+		width: 400px;
+		font-size: 20px;
+		cursor: default;
+	}
+}
+
+/** News box - Start */

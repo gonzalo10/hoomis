@@ -1,0 +1,401 @@
+/** Common - Start **/
+
+.FotoPortada {
+	background-size: 100%;
+}
+
+.btn {
+	padding: 7px 21px;
+	border-color: #c4c4c4;
+	background: white;
+	color: #484848;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:hover:focus {
+	background: white;
+	color: #484848;
+}
+
+.btnPrimary {
+	border-color: #facc43;
+	background-color: #facc43;
+	color: #fff;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 0px;
+}
+
+.CityText {
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+.btnlarge {
+	padding: 9px 27px;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+	border-color: #facc43;
+	background-color: #facc43;
+	color: #fff;
+	font-size: 15px;
+}
+
+.btnPrimaryBorder {
+	border-color: #008df0;
+	color: #008df0;
+	background-color: #fff;
+}
+
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: #008df0;
+	color: #008df0;
+	background-color: #fff;
+}
+
+.formControlInput {
+	padding: 10px 35px 10px 10px;
+	height: 40px;
+	border-radius: 2px;
+	font-size: 14px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	color: #767676;
+}
+
+.formControlSelect {
+	height: 40px;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	font-size: 14px;
+	max-width: 320px;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	color: #484848;
+	line-height: 24px;
+	display: block;
+	overflow: hidden;
+	appearance: none;
+}
+
+.noPadding {
+	padding: 0px !important;
+}
+/** Common - End **/
+
+/** Search Form - Start **/
+.searchFormInputs {
+	display: table;
+	float: none;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	table-layout: auto;
+	width: 100%;
+}
+.searchForm {
+	border-radius: 4px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+
+.searchForm:hover {
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.table {
+	width: 100%;
+	display: table;
+}
+.tableRow {
+	display: table-row;
+	width: 100%;
+}
+.tableCell {
+	display: table-cell;
+	float: none;
+	padding: 0px;
+	vertical-align: middle;
+}
+.tableCell:not(first-child) {
+	border-right: 1px solid #dce0e0;
+}
+.location,
+.dates {
+	width: 85%;
+	padding-left: 20px;
+	background: white;
+}
+.guests {
+	width: 17%;
+}
+.search {
+	padding-bottom: 0;
+}
+.label {
+	display: none;
+	font-size: 15px;
+	letter-spacing: -0.5px;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin: 0px;
+	white-space: nowrap;
+	font-weight: 500;
+}
+.input,
+.input:hover,
+.input:focus {
+	border: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	padding: 8px 0px;
+}
+
+.inputPadding,
+.inputPadding:hover,
+.inputPadding:focus {
+	padding: 7px 15px;
+}
+
+.searchButton {
+	line-height: 1px;
+	padding: 22px 10px;
+}
+
+.textoLogos {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btnPortada {
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.btnPortada11 {
+	background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+	-moz-border-radius: 2px;
+	-moz-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	width: 200px;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.btnPortada11:hover {
+	background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #f8f8f8;
+	background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+	background-image: -o-linear-gradient(top, #f8f8f8, #f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222;
+}
+
+.BtnMobile {
+	display: none;
+}
+
+.selectPadding {
+	padding: 0px 15px;
+}
+
+.ColFotos {
+	display: flex;
+	justify-content: center;
+}
+.BlockLogos {
+}
+
+.RowLogos {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.BloqueIcn {
+	display: flex;
+	justify-content: center;
+}
+
+.IconsPortada {
+	width: 70px;
+	height: 70px;
+}
+
+.btnVivienda {
+	width: 400px;
+	height: 200px;
+	background-image: url('../assets/house.png');
+	background-repeat: no-repeat;
+	background-size: 400px 200px;
+	transition: 0.5s;
+}
+
+.btnVivienda:hover,
+.btnHabitacion:hover {
+	margin-top: -10px;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.btnHabitacion {
+	width: 400px;
+	height: 200px;
+	background-image: url('../assets/house.png');
+	background-repeat: no-repeat;
+	background-size: 400px 200px;
+	transition: 0.5s;
+}
+
+.Fotos {
+	width: 100px;
+	height: 100px;
+}
+
+.SkylinePhoto {
+	background-image: url('../assets/house.png');
+	background-size: 800px 200px;
+	padding: 100px 100px;
+	background-repeat: no-repeat;
+	margin-left: 130px;
+}
+
+@media screen and (max-width: 767px) {
+	.location,
+	.dates,
+	.guests {
+		width: 100%;
+	}
+
+	.BtnMobile {
+		display: table-cell;
+		margin-right: 0%;
+		border: none;
+		color: #facc43;
+		font-size: 20px;
+		margin-bottom: 15%;
+	}
+
+	.BtnMobile:hover {
+		display: table-cell;
+		margin-right: 0%;
+		border: none;
+		color: #facc43;
+		font-size: 25px;
+		margin-bottom: 15%;
+		background-color: white;
+	}
+
+	.btnPrimary {
+		float: right;
+	}
+
+	.searchButton {
+		display: none;
+	}
+
+	.tableCell:not(first-child) {
+		border: none;
+	}
+
+	.searchIcon {
+		float: right;
+	}
+
+	.btnPortada {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	.btnPortada11 {
+		width: 100px;
+		font-size: 10px;
+		padding: 13px;
+		text-align: center;
+	}
+
+	.searchForm {
+		border: 1px solid #dce0e0;
+		border-radius: 4px;
+		box-shadow: 0 1px 3px 0 #dce0e0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.RowLogos {
+		margin-top: 20%;
+	}
+
+	.TituloBtn,
+	.BloqueTitulos {
+		font-size: 15px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.SkylinePhoto {
+		background-image: url('../assets/SylineBarcelona.jpg');
+		background-size: 1050px 200px;
+
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.inputPadding,
+	.inputPadding:hover,
+	.inputPadding:focus {
+		padding: 8px 0px;
+	}
+	.mobilePadding {
+		padding: 15px 16px 8px !important;
+	}
+	.selectPadding {
+		padding: 0px;
+	}
+}
+
+.geoSuggestContainer {
+	width: 100% !important;
+	margin: 0px !important;
+}
+/** Search Form - End **/
